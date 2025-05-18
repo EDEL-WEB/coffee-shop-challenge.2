@@ -1,3 +1,15 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from customer import Customer
+
+
+
+
+
+
+
 import unittest
 from customer import Customer
 from coffee import Coffee
