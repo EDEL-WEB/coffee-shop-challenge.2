@@ -10,6 +10,6 @@ c1.create_order(cf, 5.0)
 c2.create_order(cf, 6.0)
 c2.create_order(cf, 3.0)
 
-print(cf.num_orders())            # 3
-print(cf.average_price())         # 4.67
-print(Customer.most_aficionado(cf).name)  # Ben
+print(cf.num_orders())            
+print(cf.average_price())         
+print(Customer.most_aficionado(cf).name)  

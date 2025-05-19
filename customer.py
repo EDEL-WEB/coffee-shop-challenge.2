@@ -22,7 +22,7 @@ class Customer:
         return list({order.coffee for order in self.orders()})
 
     def create_order(self, coffee, price):
-        from order import Order  # Local import to avoid circular dependency
+        from order import Order 
         return Order(self, coffee, price)
 
     @classmethod

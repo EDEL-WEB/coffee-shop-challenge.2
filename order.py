@@ -1,12 +1,12 @@
-# Remove top-level imports causing circular import
-# from customer import Customer  
-# from coffee import Coffee  
+
+  
+
 
 class Order:
     all = []
 
     def __init__(self, customer, coffee, price):
-        # Import inside __init__ to avoid circular import
+        
         from customer import Customer
         from coffee import Coffee
 

@@ -44,7 +44,7 @@ coffee-shop-challenge.2/
 - Attributes: `customer, coffee, price
 - Class-level: Order.all stores all orders
 
-### 🔄 Relationships
+###  Relationships
 Customer Order Coffee
 
 ---
